@@ -1,0 +1,21 @@
+Shortcut definition file for the Java-Editor
+
+Allowed shortcuts keys:
+  F1, ..., F12
+  Ctrl+A, ..., Ctrl+Z, Ctrl+F1, ..., Ctrl+F12
+  Shift+Ctrl+A, ..., Shift+Ctrl+Z, Shift+Ctrl+F1, ..., Shift+Ctrl+F12
+  Alt+A, ..., Alt+Z, Alt+F1, ..., Alt+F12
+  Shift+Alt+A, ..., Shift+Alt+Z, Shift+Alt+F1, Shift+Alt+F12
+  Ctrl+Alt+A, ..., Ctrl+Alt+Z, Ctrl+Alt+F1, ..., Ctrl+Alt+F12
+
+A shortcut starts with "shortcut:keys"
+Inside a shortcut definition with | you can specify the
+position of the cursor.
+A shortcut definiton must end with "shortcut:end"
+
+Example
+
+shortcut:Ctrl+B
+import |
+shortcut:end
+
